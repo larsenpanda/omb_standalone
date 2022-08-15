@@ -12,7 +12,7 @@ its only modification is that it includes a Redpanda driver.
 ### How is this particular set of instructions different than the Redpanda fork of the OMB?
 Normally with OMB you deploy your cluster and workers with terraform and ansible to support a particular workload and try it under different instance type configurations. 
 
-In this case we wanted to be able to run OMB against Redpanda by deploying it *manually* rather than through TF/Ansible.
+In this case we wanted to be able to run OMB against Redpanda by deploying it **manually** rather than through TF/Ansible.
 
 ### Let's Go
 
