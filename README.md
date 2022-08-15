@@ -22,10 +22,10 @@ In this case we wanted to be able to run OMB against Redpanda by deploying it **
 4. `cd openmessaging-benchmark-0.0.1-SNAPSHOT`
 
 
-NOTE: In here you will see driver configurations ("drivers" are the setups for each platform you'd want to test against).. in this case we want check out the various setups for the redpanda driver, and that's in the *driver-redpanda* folder. We'll choose the "redpanda-ack-all-group-linger-1ms.yaml" in this example.
+**NOTE**: In here you will see driver configurations ("drivers" are the setups for each platform you'd want to test against).. in this case we want check out the various setups for the redpanda driver, and that's in the *driver-redpanda* folder. We'll choose the "redpanda-ack-all-group-linger-1ms.yaml" in this example.
 
-NOTE: You can then also see the different "workloads" configurations in the *workloads* folder.
+**NOTE**: You can then also see the different "workloads" configurations in the *workloads* folder.
 
-NOTE: I ran my initial test on a single node instance 
+**NOTE**: I ran my initial test on a single node instance 
 
 5. Run the 
