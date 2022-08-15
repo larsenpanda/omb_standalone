@@ -43,7 +43,7 @@ As mentioned above, you may want to change the workload setup file or driver fil
 
 You may also want to run your worker with a smaller warmup and test duration as you initally test to make sure everything works, including the generated output file. In that case open the workload file(s) you're interested in running add a new line under the existing duration line and set `warmupDurationMinutes: 1` (for example).
 
-Another modification you'll probably want to change as appropriate is the producerRate. By default it's 50k messages per second. For example, I changed mine to be 50 per second because I was running Redpanda on my local docker and wanted to to just verify that it works to create this doc. 
+Another modification you'll probably want to change as appropriate is the `producerRate`. By default it's 50k messages per second. For example, I changed mine to be 50 per second because I was running Redpanda on my local docker and wanted to to just verify that it works to create this doc. 
 
 ### Do I need to set auto topic create = true?
 No. The topic is created as necessary for each workload being run using the kafka Admin API.
