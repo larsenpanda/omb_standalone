@@ -45,5 +45,8 @@ You may also want to run your worker with a smaller warmup and test duration as 
 
 Another modification you'll probably want to change as appropriate is the `producerRate`. By default it's 50k messages per second. For example, I changed mine to be 50 per second because I was running Redpanda on my local docker and wanted to to just verify that it works to create this doc. 
 
+### What about the charts? 
+In the bin directory there is a python script called `generate_charts.py`. Run this and you'll get image outputs that you can then copy over and view on a desktop for your analysis.
+
 ### Do I need to set auto topic create = true?
 No. The topic is created as necessary for each workload being run using the kafka Admin API.
