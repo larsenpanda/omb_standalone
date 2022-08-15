@@ -17,7 +17,8 @@ In this case we wanted to be able to run OMB against Redpanda by deploying it **
 ### Dependencies
 - A running Redpanda cluster with 9092 and 9644 ports open to the workload runner, and enough disk/resources to handle your intended test runs
 - A machine that will run your benchmark workloads. Give this enough resources (memory usually) if you want to run higher throughputs, 16-32 GB memory will help
-- workload runner machine should have 1. Java 11 or higher, 2. Maven, and 3. Python3
+- workload runner machine should have 1. **Java 11** or higher, 2. **Maven**, and 3. **Python3**
+- Ideally root (sudo) access. If an admin is deploying this and someone else will run it, `chmod 777 -R` recursively the directory the runner will run from so it can generate the output file.
 
 ### Let's Go
 
